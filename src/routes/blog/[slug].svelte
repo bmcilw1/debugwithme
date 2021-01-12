@@ -1,5 +1,5 @@
 <script context="module" lang="ts">
-	export async function preload({ params, query }) {
+	export async function preload({ params }) {
 		// the `slug` parameter is available because
 		// this file is called [slug].svelte
 		const res = await this.fetch(`_posts/${params.slug}.md`);
@@ -16,7 +16,7 @@
 	import fm from "front-matter";
 	import MarkdownIt from "markdown-it";
 
-	export let postMd;
+	export let postMd: string;
 
 	const md = new MarkdownIt();
 
