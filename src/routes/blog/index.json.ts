@@ -5,7 +5,7 @@ import path from "path";
 
 export async function get(req, res) {
   // List the Markdown files and return their filenames
-  const posts = await new Promise((resolve, reject) =>
+  const posts: Array<string> = await new Promise((resolve, reject) =>
     glob("static/_posts/*.md", (err, files) => {
       if (err) return reject(err);
       return resolve(files);
@@ -16,8 +16,13 @@ export async function get(req, res) {
   const postsFrontMatter = await Promise.all(
     posts.map(async (post) => {
       const content = (await fs.readFile(post)).toString();
+      const attrs = fm(content).attributes;
       // Add the slug (based on the filename) to the metadata, so we can create links to this blog post
-      return { ...fm(content).attributes, slug: path.parse(post).name };
+      return {
+        title: attrs["title"],
+        date: attrs["date"],
+        slug: path.parse(post).name,
+      };
     })
   );
 
