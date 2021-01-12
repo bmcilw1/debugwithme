@@ -1,4 +1,5 @@
 ---
+layout: blog
 slug: second-post-wins
 title: Original Content Title Here
 ---

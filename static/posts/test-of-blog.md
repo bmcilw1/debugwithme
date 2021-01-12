@@ -1,4 +1,5 @@
 ---
+layout: blog
 slug: test-of-blog
 title: Test of Blog
 ---
