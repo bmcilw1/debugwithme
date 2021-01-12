@@ -1,6 +1,8 @@
-# sapper-template
+# DebugWithMe
 
-The default template for setting up a [Sapper](https://github.com/sveltejs/sapper) project. Can use either Rollup or webpack as bundler.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/05b0bacb-9c1d-4d11-9e06-12c9fd7d7fef/deploy-status)](https://app.netlify.com/sites/debugwithme/deploys)
+
+Uses the default template for setting up a [Sapper](https://github.com/sveltejs/sapper) project. Can use either Rollup or webpack as bundler.
 
 ## Getting started
 
