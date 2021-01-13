@@ -8,8 +8,6 @@ date: 2021-01-12T03:48:12.250Z
 
 It's dark. Duh.
 
-<br/><br/>
-
 This is all you need to know.
 
 Post out.
