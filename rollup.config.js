@@ -32,11 +32,22 @@ export default {
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
 			svelte({
-				preprocess: sveltePreprocess(),
-				compilerOptions: {
-					dev,
-					hydratable: true
-				}
+				preprocess: sveltePreprocess({
+					sourceMap: dev,
+					scss: {
+						includePaths: [
+							'node_modules',
+							'src'
+						]
+					},
+					postcss: {
+						plugins: [require('autoprefixer')()]
+					}
+					}),
+					compilerOptions: {
+						dev,
+						hydratable: true
+					}
 			}),
 			url({
 				sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
@@ -86,7 +97,18 @@ export default {
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
 			svelte({
-				preprocess: sveltePreprocess(),
+				preprocess: sveltePreprocess({
+					sourceMap: dev,
+					scss: {
+						includePaths: [
+							'node_modules',
+							'src'
+						]
+					},
+					postcss: {
+						plugins: [require('autoprefixer')()]
+					}
+				}),
 				compilerOptions: {
 					dev,
 					generate: 'ssr',
