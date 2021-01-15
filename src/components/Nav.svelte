@@ -1,60 +1,30 @@
 <script lang="ts">
 	export let segment: string;
+	let showDropdown = false;
 </script>
 
-<style>
-	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
-		font-weight: 300;
-		padding: 0 1em;
-	}
+<nav class='navbar' role="navigation" aria-label="main navigation">
+	<div class="navbar-brand">
+		<a class="navbar-item" href="https://bulma.io">
+		  <img src="https://bulma.io/images/bulma-logo.png" alt='logo' width="112" height="28">
+		</a>
+	
+		<div role="button" on:click="{ () => showDropdown = !showDropdown }" class="navbar-burger { showDropdown ? 'is-active' : ''}" aria-label="menu" aria-expanded="false" data-target="menu">
+		  <span aria-hidden="true"></span>
+		  <span aria-hidden="true"></span>
+		  <span aria-hidden="true"></span>
+		</div>
+	</div>
 
-	ul {
-		margin: 0;
-		padding: 0;
-	}
+	  <div id="menu" class="navbar-menu { showDropdown ? 'is-active' : ''}">
+		<div class="navbar-start">
+			<a on:click="{() => showDropdown = !showDropdown}" class="navbar-item" aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a>
+			<a on:click="{() => showDropdown = !showDropdown}" class="navbar-item" aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a>
 
-	/* clearfix */
-	ul::after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-
-	li {
-		display: block;
-		float: left;
-	}
-
-	[aria-current] {
-		position: relative;
-		display: inline-block;
-	}
-
-	[aria-current]::after {
-		position: absolute;
-		content: '';
-		width: calc(100% - 1em);
-		height: 2px;
-		background-color: rgb(255,62,0);
-		display: block;
-		bottom: -1px;
-	}
-
-	a {
-		text-decoration: none;
-		padding: 1em 0.5em;
-		display: block;
-	}
-</style>
-
-<nav>
-	<ul>
-		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a></li>
-		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>
-
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a></li>
-	</ul>
+			<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
+				the blog data when we hover over the link or tap it on a touchscreen -->
+			<a on:click="{() => showDropdown = !showDropdown}" class="navbar-item" rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a>
+		</div>
+	  </div>
+	
 </nav>
