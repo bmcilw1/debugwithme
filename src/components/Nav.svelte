@@ -9,11 +9,12 @@
 		  <img src="https://bulma.io/images/bulma-logo.png" alt='logo' width="112" height="28">
 		</a>
 	
-		<div role="button" on:click="{ () => showDropdown = !showDropdown }" class="navbar-burger { showDropdown ? 'is-active' : ''}" aria-label="menu" aria-expanded="false" data-target="menu">
+		<!-- svelte-ignore a11y-missing-attribute -->
+		<a role="button" on:click="{ () => showDropdown = !showDropdown }" class="navbar-burger { showDropdown ? 'is-active' : ''}" aria-label="menu" aria-expanded="false" data-target="menu">
 		  <span aria-hidden="true"></span>
 		  <span aria-hidden="true"></span>
 		  <span aria-hidden="true"></span>
-		</div>
+		</a>
 	</div>
 
 	  <div id="menu" class="navbar-menu { showDropdown ? 'is-active' : ''}">
