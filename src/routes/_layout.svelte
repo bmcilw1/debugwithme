@@ -1,15 +1,15 @@
 <script lang="ts">
-	import Nav from '../components/Nav.svelte';
+  import Nav from "../components/Nav.svelte";
 
-	export let segment: string;
+  export let segment: string;
 </script>
 
-<style global lang="scss">
-	@import "../main.scss";
-</style>
-
-<Nav {segment}/>
+<Nav {segment} />
 
 <main>
-	<slot></slot>
+  <slot />
 </main>
+
+<style global lang="scss">
+  @import "../main.scss";
+</style>

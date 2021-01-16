@@ -38,9 +38,11 @@
         </article>
       </div>
     </div>
-  </div>  
+  </div>
   <div class="columns is-centered">
-    <div class="is-size-3 pt-5">Yet, we spend so much of our time doing it.</div>
+    <div class="is-size-3 pt-5">
+      Yet, we spend so much of our time doing it.
+    </div>
   </div>
 </section>
 
@@ -51,6 +53,8 @@
       Today, we can usually find answers to specifics online.
     </div>
     <div class="block">But, what if we don't know where to start?</div>
-    <div class="block">There seems to be a lack of <span>general</span> debugging resources.</div>
+    <div class="block">
+      There seems to be a lack of <span>general</span> debugging resources.
+    </div>
   </div>
 </section>
