@@ -33,7 +33,7 @@
 
 <section class="section">
   <div class="container">
-    <h1 class="title">{post.title}</h1>
+    <h1 class="title is-2">{post.title}</h1>
 
     <div class="content">
       {@html post.html}
