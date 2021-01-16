@@ -1,4 +1,3 @@
-
 <!-- Home -->
 <section id="home" class="section hero is-primary is-large">
   <div class="hero-body">
