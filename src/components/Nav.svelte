@@ -6,7 +6,7 @@
 <nav class='navbar' role="navigation" aria-label="main navigation">
 	<div class="navbar-brand">
 		<a class="navbar-item logo" href=".">
-			<img src="/favicon.ico" alt="logo"/><strong class="pl-3">DebugWithMe</strong>
+			<img src="/favicon.ico" alt="logo"/><strong class="pl-2">DebugWithMe</strong>
 		</a>
 	
 		<!-- svelte-ignore a11y-missing-attribute -->
