@@ -39,9 +39,11 @@
       </div>
     </div>
   </div>
-  <div class="columns is-centered">
-    <div class="is-size-3 pt-5">
-      Yet, we spend so much of our time doing it.
+  <div class="container">
+    <div class="columns is-centered content">
+      <blockquote class="column m-5 is-size-4 py-6">
+        Yet, we spend so much of our time doing it.
+      </blockquote>
     </div>
   </div>
 </section>
