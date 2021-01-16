@@ -1,5 +1,5 @@
 <!-- Home -->
-<section id="home" class="section hero is-primary is-large">
+<section id="home" class="section hero is-primary is-medium">
   <div class="hero-body">
     <h1 class="title">DebugWithMe</h1>
 
@@ -15,10 +15,10 @@
       <div class="tile is-vertical is-8">
         <div class="tile">
           <div class="tile is-parent is-vertical">
-            <article class="tile is-child notification is-danger">
+            <article class="tile is-child notification is-warning">
               <p class="title">Time consuming</p>
             </article>
-            <article class="tile is-child notification is-warning">
+            <article class="tile is-child notification is-danger">
               <p class="title">...stressful!</p>
             </article>
           </div>
@@ -41,9 +41,9 @@
   </div>
   <div class="container">
     <div class="columns is-centered content">
-      <blockquote class="column m-5 is-size-4 py-6">
-        Yet, we spend so much of our time doing it.
-      </blockquote>
+      <blockquote
+        class="column m-3 notification is-warning is-light is-size-4 py-6"
+      >And we spend SO much of our time doing it! 😭</blockquote>
     </div>
   </div>
 </section>
