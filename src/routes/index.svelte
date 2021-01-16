@@ -10,7 +10,7 @@
 <!-- Problem -->
 <section id="problem" class="section">
   <div class="container">
-    <h1 class="title">Debugging can be</h1>
+    <h1 class="title my-6 has-text-centered">Debugging can be</h1>
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-8">
         <div class="tile">
