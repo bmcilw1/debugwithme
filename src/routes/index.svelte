@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>DebugWithMe</title>
 </svelte:head>
 
 <section class="section">

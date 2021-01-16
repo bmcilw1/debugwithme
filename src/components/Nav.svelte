@@ -6,7 +6,7 @@
 <nav class='navbar' role="navigation" aria-label="main navigation">
 	<div class="navbar-brand">
 		<a class="navbar-item logo" href=".">
-			<strong>DebugWithMe</strong>
+			<span class="pr-3 is-size-4">🐞</span><strong>DebugWithMe</strong>
 		</a>
 	
 		<!-- svelte-ignore a11y-missing-attribute -->
