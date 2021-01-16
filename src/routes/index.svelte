@@ -9,15 +9,49 @@
 </section>
 
 <!-- Problem -->
-<section id="problem" class="section hero is-medium">
-  <div class="hero-body container">
-    <h1 class="title">Debugging can be</h1>
-    <h2 class="subtitle">Time Consuming</h2>
-    <h2 class="subtitle">Stressful</h2>
-    <h2 class="subtitle">Unpredictable</h2>
-    <h2 class="subtitle">...Just plain hard</h2>
-  </div>
+<section id="problem" class="section">
   <div class="container">
-    <div class="is-size-3">Yet, we spend so much of our time doing it.</div>
+    <h1 class="title">Debugging can be</h1>
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical is-8">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification is-danger">
+              <p class="title">Time consuming</p>
+            </article>
+            <article class="tile is-child notification is-warning">
+              <p class="title">...stressful!</p>
+            </article>
+          </div>
+          <div class="tile is-parent is-2">
+            <article class="tile is-child notification is-info">
+              <p class="title">Unpredictable</p>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-success">
+          <div class="content">
+            <p class="title">Just plain</p>
+            <p class="subtitle">HARD</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>  
+  <div class="columns is-centered">
+    <div class="is-size-3 pt-5">Yet, we spend so much of our time doing it.</div>
+  </div>
+</section>
+
+<!-- Existing Solutions -->
+<section id="existing-solutions" class="section is-large">
+  <div class="container">
+    <div class="block">
+      Today, we can usually find answers to specifics online.
+    </div>
+    <div class="block">But, what if we don't know where to start?</div>
+    <div class="block">There seems to be a lack of <span>general</span> debugging resources.</div>
   </div>
 </section>
