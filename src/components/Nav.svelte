@@ -10,7 +10,7 @@
 		</a>
 	
 		<!-- svelte-ignore a11y-missing-attribute -->
-		<a role="button" on:click="{ () => showDropdown = !showDropdown }" class="navbar-burger { showDropdown ? 'is-active' : ''}" aria-label="menu" aria-expanded="false" data-target="menu">
+		<a role="button" on:click="{ () => showDropdown = !showDropdown }" class:is-active={showDropdown} class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="menu">
 		  <span aria-hidden="true"></span>
 		  <span aria-hidden="true"></span>
 		  <span aria-hidden="true"></span>
