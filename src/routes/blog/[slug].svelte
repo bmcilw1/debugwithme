@@ -27,10 +27,6 @@
   };
 </script>
 
-<svelte:head>
-  <title>{post.title}</title>
-</svelte:head>
-
 <section class="section">
   <div class="container">
     <h1 class="title is-2">{post.title}</h1>

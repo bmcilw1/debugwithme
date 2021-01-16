@@ -14,10 +14,6 @@
   export let posts: { slug: string; title: string; date: Date; html: any }[];
 </script>
 
-<svelte:head>
-  <title>Blog</title>
-</svelte:head>
-
 <h1>Recent posts</h1>
 
 <ul>
