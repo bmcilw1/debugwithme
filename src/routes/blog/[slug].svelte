@@ -31,11 +31,15 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<h1>{post.title}</h1>
+<section class="section">
+  <div class="container">
+    <h1 class="title">{post.title}</h1>
 
-<div class="content">
-  {@html post.html}
-</div>
+    <div class="content">
+      {@html post.html}
+    </div>
+  </div>
+</section>
 
 <style>
   /*
