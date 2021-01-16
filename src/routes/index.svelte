@@ -51,9 +51,9 @@
 <!-- Existing Solutions -->
 <section id="existing-solutions" class="section is-large">
   <div class="container">
-    <div class="block">We can find answers to specifics online.</div>
-    <div class="block">But, what if we don't know where to start?</div>
-    <div class="block">
+    <div class="block subtitle">We can find answers to specifics online.</div>
+    <div class="block subtitle">But, what if we don't know where to start?</div>
+    <div class="block subtitle">
       There seems to be a lack of <span class="has-text-primary">general</span> debugging
       resources.
     </div>
