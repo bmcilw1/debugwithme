@@ -5,8 +5,8 @@
 
 <nav class='navbar' role="navigation" aria-label="main navigation">
 	<div class="navbar-brand">
-		<a class="navbar-item" href="https://bulma.io">
-		  <img src="https://bulma.io/images/bulma-logo.png" alt='logo' width="112" height="28">
+		<a class="navbar-item logo" href=".">
+			<strong>DebugWithMe</strong>
 		</a>
 	
 		<!-- svelte-ignore a11y-missing-attribute -->
@@ -29,3 +29,9 @@
 	  </div>
 	
 </nav>
+
+<style lang="scss">
+.logo {
+	color: #FA7C91;
+}
+</style>
