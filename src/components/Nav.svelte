@@ -24,7 +24,7 @@
 
 			<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 				the blog data when we hover over the link or tap it on a touchscreen -->
-			<a on:click="{() => showDropdown = !showDropdown}" class="navbar-item" rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a>
+			<!-- <a on:click="{() => showDropdown = !showDropdown}" class="navbar-item" rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a> -->
 		</div>
 	  </div>
 	
