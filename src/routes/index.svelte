@@ -83,3 +83,45 @@
     </div>
   </div>
 </section>
+
+<!-- Contact -->
+<section id="contact" class="section is-large">
+  <div class="columns is-centered">
+    <div class="column is-8">
+      <form>
+        <div class="field">
+          <label class="label" for="name">Name</label>
+          <div class="control">
+            <input
+              class="input"
+              name="name"
+              type="text"
+              placeholder="Your name"
+            />
+          </div>
+        </div>
+        <div class="field">
+          <label class="label" for="email">Email</label>
+          <div class="control">
+            <input
+              class="input"
+              name="email"
+              type="text"
+              placeholder="Your email"
+            />
+          </div>
+        </div>
+        <div class="field">
+          <label class="label" for="description">Bug Descripton</label>
+          <div class="control">
+            <textarea
+              class="textarea"
+              name="description"
+              placeholder="Describe the bug you're working on..."
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
