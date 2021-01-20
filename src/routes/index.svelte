@@ -51,11 +51,17 @@
 <!-- Existing Solutions -->
 <section id="existing-solutions" class="section is-large">
   <div class="container">
-    <div class="block subtitle">We can find answers to specifics online.</div>
-    <div class="block subtitle">But, what if we don't know where to start?</div>
-    <div class="block subtitle">
-      There seems to be a lack of <span class="has-text-primary">general</span> debugging
-      resources.
-    </div>
+    <article class="message is-info">
+      <div class="message-body">We can find answers to specifics online.</div>
+    </article>
+    <article class="message is-success">
+      <div class="message-body">But, what if we don't know where to start?</div>
+    </article>
+    <article class="message is-warning">
+      <div class="message-body">
+        There seems to be a lack of <span class="has-text-primary">general</span
+        > debugging resources.
+      </div>
+    </article>
   </div>
 </section>
