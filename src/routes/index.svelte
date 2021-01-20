@@ -77,7 +77,7 @@
           <li>
             We'll record the experience and post it online to help others.
           </li>
-          <li>When I can't help, the community can!</li>
+          <li>When I can't help, the community probably can!</li>
         </ol>
       </div>
     </div>
