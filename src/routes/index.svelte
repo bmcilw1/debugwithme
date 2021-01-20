@@ -70,18 +70,14 @@
 <section id="solution" class="section is-large">
   <div class="container">
     <div class="columns">
-      <div class="column is-8">
-        <ol class="list">
-          <li class="list-item">
-            I'm creating videos debugging real problems for free!
-          </li>
-          <li class="list-item">
-            You send in a request, and I'll do my best to help.
-          </li>
-          <li class="list-item">
+      <div class="column is-8 content">
+        <ol>
+          <li>I'm creating videos debugging real problems for free!</li>
+          <li>You send in a request, and I'll do my best to help.</li>
+          <li>
             We'll record the experience and post it online to help others.
           </li>
-          <li class="list-item">When I can't help, the community can!</li>
+          <li>When I can't help, the community can!</li>
         </ol>
       </div>
     </div>
