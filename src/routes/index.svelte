@@ -65,3 +65,25 @@
     </article>
   </div>
 </section>
+
+<!-- Solution -->
+<section id="solution" class="section is-large">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8">
+        <ol class="list">
+          <li class="list-item">
+            I'm creating videos debugging real problems for free!
+          </li>
+          <li class="list-item">
+            You send in a request, and I'll do my best to help.
+          </li>
+          <li class="list-item">
+            We'll record the experience and post it online to help others.
+          </li>
+          <li class="list-item">When I can't help, the community can!</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
