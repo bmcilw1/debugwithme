@@ -106,7 +106,7 @@
             <input
               class="input"
               name="email"
-              type="text"
+              type="email"
               placeholder="Your email"
             />
           </div>
