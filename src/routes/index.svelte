@@ -85,7 +85,13 @@
 </section>
 
 <!-- Contact -->
-<section id="contact" class="section is-large">
+<section
+  id="contact"
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  class="section is-large"
+>
   <div class="columns is-centered">
     <div class="column is-8">
       <form>
