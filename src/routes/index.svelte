@@ -90,11 +90,11 @@
     <div class="column is-8">
       <form name="contact" netlify>
         <div class="field">
-          <label class="label" for="name">Name</label>
+          <label class="label" for="guest-name">Name</label>
           <div class="control">
             <input
               class="input"
-              name="name"
+              name="guest-name"
               type="text"
               placeholder="Your name"
             />
