@@ -85,10 +85,10 @@
 </section>
 
 <!-- Contact -->
-<section id="contact" name="contact" netlify class="section is-large">
+<section id="contact" class="section is-large">
   <div class="columns is-centered">
     <div class="column is-8">
-      <form>
+      <form name="contact" netlify>
         <div class="field">
           <label class="label" for="name">Name</label>
           <div class="control">
