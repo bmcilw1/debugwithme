@@ -123,7 +123,7 @@
         </div>
         <div class="field">
           <div class="control">
-            <button class="button is-primary">Submit</button>
+            <button type="submit" class="button is-primary">Submit</button>
           </div>
         </div>
       </form>
