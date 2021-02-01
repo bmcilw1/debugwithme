@@ -43,7 +43,9 @@
     <div class="columns is-centered content">
       <blockquote
         class="column m-3 notification is-warning is-light is-size-4 py-6"
-      >And we spend SO much of our time doing it! 😭</blockquote>
+      >
+        And we spend SO much of our time doing it! 😭
+      </blockquote>
     </div>
   </div>
 </section>
@@ -88,7 +90,7 @@
 <section id="contact" class="section is-large">
   <div class="columns is-centered">
     <div class="column is-8">
-      <form name="contact-form" netlify>
+      <form name="contact-form" data-netlify="true" method="POST">
         <div class="field">
           <label class="label" for="guest-name">Name</label>
           <div class="control">
