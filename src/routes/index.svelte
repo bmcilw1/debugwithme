@@ -40,7 +40,7 @@
     </div>
   </div>
   <div class="container">
-    <div class="columns is-centered content">
+    <div class="columns py-5 is-centered content">
       <blockquote
         class="column m-3 notification is-warning is-light is-size-4 py-6"
       >
