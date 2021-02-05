@@ -9,7 +9,7 @@
 
 <!-- Problem -->
 <section id="problem" class="section">
-  <div class="container">
+  <div class="container is-max-desktop">
     <h1 class="title my-6 has-text-centered">Debugging can be</h1>
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-8">
