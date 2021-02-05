@@ -38,20 +38,16 @@
         </article>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="columns py-5 is-centered content">
-      <blockquote
-        class="column m-3 notification is-warning is-light is-size-4 py-6"
-      >
+    <div class="title is-parent">
+      <div class="tile is-child notification is-link">
         And we spend SO much of our time doing it! 😭
-      </blockquote>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- Existing Solutions -->
-<section id="existing-solutions" class="section is-large">
+<section id="existing-solutions" class="section is-medium">
   <div class="container">
     <article class="message is-info">
       <div class="message-body">We can find answers to specifics online.</div>
