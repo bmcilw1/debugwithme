@@ -4,6 +4,15 @@
 
 $family-sans-serif: "Nunito", sans-serif;
 
+.has-text-vertical {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.has-text-vertical.notification {
+  padding: 1.25rem;
+}
+
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all";
 @import "../node_modules/bulma/sass/base/_all";

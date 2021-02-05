@@ -23,13 +23,15 @@
             </article>
           </div>
           <div class="tile is-parent is-2">
-            <article class="tile is-child notification is-info">
-              <p class="title">Unpredictable</p>
+            <article
+              class="tile is-child notification is-info has-text-vertical is-centered"
+            >
+              <div class="title">Unpredictable</div>
             </article>
           </div>
         </div>
       </div>
-      <div class="tile is-parent">
+      <div class="tile is-parent is-4">
         <article class="tile is-child notification is-success">
           <div class="content">
             <p class="title">Just plain</p>
